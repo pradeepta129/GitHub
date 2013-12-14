@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Vserv.Theme.Sherlock" parent="android:Theme.Holo">
+        <item name="vserv_actionBarSize">56dip</item>
+        <item name="vserv_actionBarTabStyle">@style/Vserv.Widget.Sherlock.ActionBar.TabView</item>
+        <item name="vserv_actionBarTabBarStyle">@style/Vserv.Widget.Sherlock.ActionBar.TabBar</item>
+        <item name="vserv_actionBarTabTextStyle">@style/Vserv.Widget.Sherlock.ActionBar.TabText</item>
+        <item name="vserv_actionButtonStyle">@style/Vserv.Widget.Sherlock.ActionButton</item>
+        <item name="vserv_actionDropDownStyle">@style/Vserv.Widget.Sherlock.Spinner</item>
+        <item name="vserv_actionMenuTextAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="vserv_actionMenuTextColor">#FFc8dc5d</item>
+        <item name="vserv_actionModeBackground">@drawable/vserv_abs__cab_background_holo_dark</item>
+        <item name="vserv_actionModeCloseDrawable">@drawable/vserv_abs__cab_ic_close_holo</item>
+        <item name="vserv_actionModeCloseButtonStyle">@style/Vserv.Widget.Sherlock.ActionButton.CloseMode</item>
+        <item name="vserv_actionOverflowButtonStyle">@style/Vserv.Widget.Sherlock.ActionButton.Overflow</item>
+        <item name="vserv_actionSpinnerItemStyle">@android:style/Widget.Holo.TextView.SpinnerItem</item>
+        <item name="vserv_dropDownListViewStyle">@style/Vserv.Widget.Sherlock.ListView.DropDown</item>
+        <item name="vserv_dropdownListPreferredItemHeight">48dip</item>
+        <item name="vserv_popupMenuStyle">@style/Vserv.Widget.Sherlock.PopupMenu</item>
+        <item name="vserv_selectableItemBackground">@drawable/vserv_abs__item_background_holo_dark</item>
+        <item name="vserv_windowActionBar">true</item>
+        <item name="vserv_windowActionModeOverlay">false</item>
+
+        <!-- These should be in `Widget.Sherlock.ActionBar` but there is no way to then -->
+        <!-- reference them as sibling attributes to their native counterparts. See: -->
+        <!-- http://stackoverflow.com/questions/6486594/access-sibling-style-attributes-in-a-non-theme-style -->
+        <item name="vserv_abBackground">@android:color/transparent</item>
+        <item name="vserv_abCustomNavigationLayout">@null</item>
+        <item name="vserv_abDisplayOptions">useLogo|showHome|showTitle</item>
+        <item name="vserv_abDivider">@drawable/vserv_abs__action_item_divider</item>
+        <item name="vserv_abHeight">?vserv_actionBarSize</item>
+        <item name="vserv_abHomeLayout">@null</item>
+        <item name="vserv_abIcon">@null</item>
+        <item name="vserv_abIndeterminateProgressStyle">@android:style/Widget.Holo.ProgressBar</item>
+        <item name="vserv_abItemPadding">8dip</item>
+        <item name="vserv_abLogo">@null</item>
+        <item name="vserv_abNavigationMode">normal</item>
+        <item name="vserv_abTitle">@null</item>
+        <item name="vserv_abTitleTextStyle">@style/Vserv.TextAppearance.Widget.Title</item>
+        <item name="vserv_abProgressBarPadding">32dip</item>
+        <item name="vserv_abProgressBarStyle">@android:style/Widget.Holo.ProgressBar.Horizontal</item>
+        <item name="vserv_abSubtitle">@null</item>
+        <item name="vserv_abSubtitleTextStyle">@style/Vserv.TextAppearance.Widget.Subtitle</item>
+        
+        
+        <item name="android:actionBarSize">?vserv_actionBarSize</item>
+        <item name="android:actionBarStyle">@style/Vserv.Internal.Widget.Sherlock.ActionBar</item>
+        <item name="android:actionBarTabStyle">?vserv_actionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">?vserv_actionBarTabBarStyle</item>
+        <item name="android:actionBarTabTextStyle">?vserv_actionBarTabTextStyle</item>
+        <item name="android:actionButtonStyle">?vserv_actionButtonStyle</item>
+        <item name="android:actionDropDownStyle">?vserv_actionDropDownStyle</item>
+        <item name="android:actionMenuTextAppearance">?vserv_actionMenuTextAppearance</item>
+        <item name="android:actionMenuTextColor">?vserv_actionMenuTextColor</item>
+        <item name="android:actionModeBackground">?vserv_actionModeBackground</item>
+        <item name="android:actionModeCloseButtonStyle">?vserv_actionModeCloseButtonStyle</item>
+        <item name="android:actionModeCloseDrawable">?vserv_actionModeCloseDrawable</item>
+        <item name="android:actionOverflowButtonStyle">?vserv_actionOverflowButtonStyle</item>
+        <item name="android:dropDownListViewStyle">?vserv_dropDownListViewStyle</item>
+        <item name="android:popupMenuStyle">?vserv_popupMenuStyle</item>
+        <item name="android:selectableItemBackground">?vserv_selectableItemBackground</item>
+        <item name="android:windowActionBar">?vserv_windowActionBar</item>
+        <item name="android:windowActionModeOverlay">?vserv_windowActionModeOverlay</item>
+    </style>
+
+    <style name="Vserv.Internal.Widget.Sherlock.ActionBar" parent="android:Widget.Holo.ActionBar">
+        <item name="android:background">?vserv_abBackground</item>
+        <item name="android:customNavigationLayout">?vserv_abCustomNavigationLayout</item>
+        <item name="android:displayOptions">?vserv_abDisplayOptions</item>
+        <item name="android:divider">?vserv_abDivider</item>
+        <item name="android:height">?vserv_abHeight</item>
+        <item name="android:homeLayout">?vserv_abHomeLayout</item>
+        <item name="android:icon">?vserv_abIcon</item>
+        <item name="android:indeterminateProgressStyle">?vserv_abIndeterminateProgressStyle</item>
+        <item name="android:itemPadding">?vserv_abItemPadding</item>
+        <item name="android:logo">?vserv_abLogo</item>
+        <item name="android:navigationMode">?vserv_abNavigationMode</item>
+        <item name="android:title">?vserv_abTitle</item>
+        <item name="android:titleTextStyle">?vserv_abTitleTextStyle</item>
+        <item name="android:progressBarPadding">?vserv_abProgressBarPadding</item>
+        <item name="android:progressBarStyle">?vserv_abProgressBarStyle</item>
+        <item name="android:subtitle">?vserv_abSubtitle</item>
+        <item name="android:subtitleTextStyle">?vserv_abSubtitleTextStyle</item>
+    </style>
+    
+    
+    <style name="Vserv.Widget.Sherlock.ActionButton" parent="android:Widget.Holo.ActionButton"></style>
+    <style name="Vserv.Widget.Sherlock.Spinner" parent="android:Widget.Holo.Spinner"></style>
+    <style name="Vserv.Widget.Sherlock.ActionButton.CloseMode" parent="android:Widget.Holo.ActionButton.CloseMode"></style>
+    <style name="Vserv.Widget.Sherlock.ActionButton.Overflow" parent="android:Widget.Holo.ActionButton.Overflow"></style>
+    <style name="Vserv.Widget.Sherlock.ListView.DropDown" parent="android:Widget.Holo.ListView.DropDown"></style>
+    <style name="Vserv.Widget.Sherlock.ListPopupWindow" parent="android:Widget.Holo.ListPopupWindow"></style>
+    <style name="Vserv.Widget.Sherlock.PopupMenu" parent="android:Widget.Holo.PopupMenu"></style>
+
+	
+	
+    <style name="Vserv.Theme.Sherlock.Light" parent="android:Theme.Holo.Light">
+        <item name="vserv_actionBarSize">56dip</item>
+        <item name="vserv_actionBarTabStyle">@style/Vserv.Widget.Sherlock.Light.ActionBar.TabView</item>
+        <item name="vserv_actionBarTabBarStyle">@style/Vserv.Widget.Sherlock.Light.ActionBar.TabBar</item>
+        <item name="vserv_actionBarTabTextStyle">@style/Vserv.Widget.Sherlock.Light.ActionBar.TabText</item>
+        <item name="vserv_actionButtonStyle">@style/Vserv.Widget.Sherlock.Light.ActionButton</item>
+        <item name="vserv_actionDropDownStyle">@style/Vserv.Widget.Sherlock.Light.Spinner</item>
+        <item name="vserv_actionMenuTextAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="vserv_actionMenuTextColor">?android:attr/textColorPrimary</item>
+        <item name="vserv_actionModeBackground">@drawable/vserv_abs__cab_background_holo_light</item>
+        <item name="vserv_actionModeCloseDrawable">@drawable/vserv_abs__cab_ic_close_holo</item>
+        <item name="vserv_actionModeCloseButtonStyle">@style/Vserv.Widget.Sherlock.Light.ActionButton.CloseMode</item>
+        <item name="vserv_actionOverflowButtonStyle">@style/Vserv.Widget.Sherlock.Light.ActionButton.Overflow</item>
+        <item name="vserv_actionSpinnerItemStyle">@android:style/Widget.Holo.Light.TextView.SpinnerItem</item>
+        <item name="vserv_dropDownListViewStyle">@style/Vserv.Widget.Sherlock.Light.ListView.DropDown</item>
+        <item name="vserv_dropdownListPreferredItemHeight">48dip</item>
+        <item name="vserv_popupMenuStyle">@style/Vserv.Widget.Sherlock.Light.PopupMenu</item>
+        <item name="vserv_selectableItemBackground">@drawable/vserv_abs__item_background_holo_light</item>
+        <item name="vserv_windowActionBar">true</item>
+        <item name="vserv_windowActionModeOverlay">false</item>
+
+        <!-- These should be in `Widget.Sherlock.ActionBar` but there is no way to then -->
+        <!-- reference them as sibling attributes to their native counterparts. See: -->
+        <!-- http://stackoverflow.com/questions/6486594/access-sibling-style-attributes-in-a-non-theme-style -->
+        <item name="vserv_abBackground">@android:color/transparent</item>
+        <item name="vserv_abCustomNavigationLayout">@null</item>
+        <item name="vserv_abDisplayOptions">useLogo|showHome|showTitle</item>
+        <item name="vserv_abDivider">@drawable/vserv_abs__action_item_divider</item>
+        <item name="vserv_abHeight">?vserv_actionBarSize</item>
+        <item name="vserv_abHomeLayout">@null</item>
+        <item name="vserv_abIcon">@null</item>
+        <item name="vserv_abIndeterminateProgressStyle">@android:style/Widget.Holo.Light.ProgressBar</item>
+        <item name="vserv_abItemPadding">8dip</item>
+        <item name="vserv_abLogo">@null</item>
+        <item name="vserv_abNavigationMode">normal</item>
+        <item name="vserv_abTitle">@null</item>
+        <item name="vserv_abTitleTextStyle">@style/Vserv.TextAppearance.Widget.Title</item>
+        <item name="vserv_abProgressBarPadding">32dip</item>
+        <item name="vserv_abProgressBarStyle">@android:style/Widget.Holo.Light.ProgressBar.Horizontal</item>
+        <item name="vserv_abSubtitle">@null</item>
+        <item name="vserv_abSubtitleTextStyle">@style/Vserv.TextAppearance.Widget.Subtitle</item>
+        
+        <item name="android:actionBarSize">?vserv_actionBarSize</item>
+        <item name="android:actionBarStyle">@style/Vserv.Internal.Widget.Sherlock.Light.ActionBar</item>
+        <item name="android:actionBarTabStyle">?vserv_actionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">?vserv_actionBarTabBarStyle</item>
+        <item name="android:actionBarTabTextStyle">?vserv_actionBarTabTextStyle</item>
+        <item name="android:actionButtonStyle">?vserv_actionButtonStyle</item>
+        <item name="android:actionDropDownStyle">?vserv_actionDropDownStyle</item>
+        <item name="android:actionMenuTextAppearance">?vserv_actionMenuTextAppearance</item>
+        <item name="android:actionMenuTextColor">?vserv_actionMenuTextColor</item>
+        <item name="android:actionModeBackground">?vserv_actionModeBackground</item>
+        <item name="android:actionModeCloseButtonStyle">?vserv_actionModeCloseButtonStyle</item>
+        <item name="android:actionModeCloseDrawable">?vserv_actionModeCloseDrawable</item>
+        <item name="android:actionOverflowButtonStyle">?vserv_actionOverflowButtonStyle</item>
+        <item name="android:dropDownListViewStyle">?vserv_dropDownListViewStyle</item>
+        <item name="android:popupMenuStyle">?vserv_popupMenuStyle</item>
+        <item name="android:selectableItemBackground">?vserv_selectableItemBackground</item>
+        <item name="android:windowActionBar">?vserv_windowActionBar</item>
+        <item name="android:windowActionModeOverlay">?vserv_windowActionModeOverlay</item>
+    </style>
+    
+    <style name="Vserv.Internal.Widget.Sherlock.Light.ActionBar" parent="android:Widget.Holo.Light.ActionBar">
+        <item name="android:background">?vserv_abBackground</item>
+        <item name="android:customNavigationLayout">?vserv_abCustomNavigationLayout</item>
+        <item name="android:displayOptions">?vserv_abDisplayOptions</item>
+        <item name="android:divider">?vserv_abDivider</item>
+        <item name="android:height">?vserv_abHeight</item>
+        <item name="android:homeLayout">?vserv_abHomeLayout</item>
+        <item name="android:icon">?vserv_abIcon</item>
+        <item name="android:indeterminateProgressStyle">?vserv_abIndeterminateProgressStyle</item>
+        <item name="android:itemPadding">?vserv_abItemPadding</item>
+        <item name="android:logo">?vserv_abLogo</item>
+        <item name="android:navigationMode">?vserv_abNavigationMode</item>
+        <item name="android:title">?vserv_abTitle</item>
+        <item name="android:titleTextStyle">?vserv_abTitleTextStyle</item>
+        <item name="android:progressBarPadding">?vserv_abProgressBarPadding</item>
+        <item name="android:progressBarStyle">?vserv_abProgressBarStyle</item>
+        <item name="android:subtitle">?vserv_abSubtitle</item>
+        <item name="android:subtitleTextStyle">?vserv_abSubtitleTextStyle</item>
+    </style>
+    
+    <style name="Vserv.Widget.Sherlock.Light.ActionButton" parent="android:Widget.Holo.Light.ActionButton"></style>
+    <style name="Vserv.Widget.Sherlock.Light.Spinner" parent="android:Widget.Holo.Light.Spinner"></style>
+    <style name="Vserv.Widget.Sherlock.Light.ActionButton.CloseMode" parent="android:Widget.Holo.Light.ActionButton.CloseMode"></style>
+    <style name="Vserv.Widget.Sherlock.Light.ActionButton.Overflow" parent="android:Widget.Holo.Light.ActionButton.Overflow"></style>
+    <style name="Vserv.Widget.Sherlock.Light.ListView.DropDown" parent="android:Widget.Holo.Light.ListView.DropDown"></style>
+    <style name="Vserv.Widget.Sherlock.Light.ListPopupWindow" parent="android:Widget.Holo.Light.ListPopupWindow"></style>
+    <style name="Vserv.Widget.Sherlock.Light.PopupMenu" parent="android:Widget.Holo.Light.PopupMenu"></style>
+</resources>
