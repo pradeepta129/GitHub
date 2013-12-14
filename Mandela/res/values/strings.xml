@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nelson Mandela</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="bannerId">c1a70c75</string>
+    <string name="billboardId">58ae5dcf</string>
+    
+    <string-array name="wall_list">
+        <item>@drawable/mandela_001</item>
+        <item>@drawable/mandela_002</item>
+        <item>@drawable/mandela_003</item>
+        <item>@drawable/mandela_004</item>
+        <item>@drawable/mandela_005</item>
+        <item>@drawable/mandela_006</item>
+        <item>@drawable/mandela_007</item>
+        <item>@drawable/mandela_008</item>
+        <item>@drawable/mandela_009</item>
+        <item>@drawable/mandela_010</item>
+        <item>@drawable/mandela_011</item>
+        <item>@drawable/mandela_012</item>
+        <item>@drawable/mandela_013</item>
+        <item>@drawable/mandela_014</item>
+        <item>@drawable/mandela_015</item>
+        <item>@drawable/mandela_016</item>
+        <item>@drawable/mandela_017</item>
+    </string-array>
+    <string name="setaswallpaper">Set As Wallpaper</string>
+
+
+</resources>

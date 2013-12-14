@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Krrish 3 HD</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="bannerId">c1a70c75</string>
+    <string name="billboardId">58ae5dcf</string>
+    
+    <string-array name="wall_list">
+        <item>@drawable/krrish_wall_001</item>
+        <item>@drawable/krrish_wall_002</item>
+        <item>@drawable/krrish_wall_003</item>
+        <item>@drawable/krrish_wall_004</item>
+        <item>@drawable/krrish_wall_005</item>
+        <item>@drawable/krrish_wall_006</item>
+        <item>@drawable/krrish_wall_007</item>
+        <item>@drawable/krrish_wall_008</item>
+        <item>@drawable/krrish_wall_009</item>
+        <item>@drawable/krrish_wall_010</item>
+        <item>@drawable/krrish_wall_011</item>
+        <item>@drawable/krrish_wall_012</item>
+        <item>@drawable/krrish_wall_013</item>
+        <item>@drawable/krrish_wall_014</item>
+        <item>@drawable/krrish_wall_015</item>
+        <item>@drawable/krrish_wall_016</item>
+        <item>@drawable/krrish_wall_017</item>
+    </string-array>
+    <string name="setaswallpaper">Set As Wallpaper</string>
+    
+    
+
+</resources>

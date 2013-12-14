@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Battlefield 4 HD</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="bannerId">c1a70c75</string>
+    <string name="billboardId">58ae5dcf</string>
+    
+    <string name="setaswallpaper">Set As Wallpaper</string>
+    
+    <string-array name="wall_list">
+        <item>@drawable/wall_001</item>
+        <item>@drawable/wall_002</item>
+        <item>@drawable/wall_003</item>
+        <item>@drawable/wall_004</item>
+        <item>@drawable/wall_005</item>
+        <item>@drawable/wall_006</item>
+        <item>@drawable/wall_007</item>
+        <item>@drawable/wall_008</item>
+        <item>@drawable/wall_009</item>
+        <item>@drawable/wall_010</item>
+        <item>@drawable/wall_011</item>
+        <item>@drawable/wall_012</item>
+        <item>@drawable/wall_013</item>
+        <item>@drawable/wall_014</item>
+    </string-array>
+
+</resources>
